@@ -1,0 +1,24 @@
+/* Custom CSS overrides for Coursera Sandbox Lab */
+
+/* Hero Banner Custom Background */
+.hero-section {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url('https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+}
+
+/* Card Image Heights */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card Hover Elevation Effect */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
